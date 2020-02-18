@@ -40,10 +40,10 @@ body{font-weight: 300;line-height: 1.7;}
 /* End Dropdown menu */
 /* Start Mobile Menu */
 .slicknav_btn {
-   background-color: #06d6a0 !important;
+   background-color: #06d6a0;
 }
 .slicknav_btn:hover {
-   background: #06d6a0;
+   background-color: #06d6a0;
 }
 .slicknav_nav .slicknav_row:hover {
    background: #06d6a0;

@@ -1,6 +1,6 @@
 .btn, .website-analytics-form input[type=submit], .case-study-wrapper, .case-study-carousel.owl-carousel .owl-dots button.active, .testimonial-carousel.owl-carousel .owl-dots button.active, .single-pricing-box:hover .pricing-box-heading:after, .subscribe-form input[type=submit], .main-menu li:hover li:hover >a, .slicknav_btn, .slicknav_nav .slicknav_row:hover, .slicknav_nav a:hover, .hero-forms input[type=submit], .testimonial-carousel.theme-2.owl-carousel .owl-dots button.active, .case-study-carousel.theme-2.owl-carousel .owl-dots button.active, .video-play-btn, .case-study-carousel-3 .owl-dots button.active, .btn.boxed-btn, input[type=submit], .comment-area input[type=submit], .contact-form input[type="submit"], .analytics-forms input[type=submit], .video-area .video-play-btn, .theme-3 .active .testimonial-text{
 
-   background-color: #a55eea !important;
+   background-color: #a55eea;
 }
 
 .btn, .website-analytics-form input[type=submit], .single-service-box:hover, .single-service-box:hover .service-icon i, .single-service-box:hover h4, .single-service-box:hover .service-readmore-btn, .single-pricing-box:hover, .subscribe-form input[type=submit], .btn.boxed-btn, .hero-forms input[type=submit], .theme-3 .single-service-box:hover, .btn.boxed-btn, input[type=submit], .contact-form input[type="submit"], .comment-area input[type=submit], .analytics-forms input[type=submit] {

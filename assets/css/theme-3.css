@@ -1,0 +1,71 @@
+a:hover,
+a:hover i,
+.main-menu li a:hover,
+.footer-menu li a:hover,
+.btn.boxed-btn:hover {
+	color: #06d6a0 !important;
+   text-decoration: none;
+   transition: .3s;
+}
+.btn.boxed-btn {
+   background: #06d6a0;
+   border: 2px solid #06d6a0;
+}
+/* Dropdown Menu */
+.main-menu li .mega-menu-wrapper h4, .main-menu li .mega-menu-wrapper a{
+   color: #888888;
+}
+.mega-menu-wrapper .col-md-4 {
+   text-align: center;
+}
+.mega-menu-wrapper .boxed-btn {
+   width: 70%;
+   display: inline-block;
+}
+.main-menu li ul, .mega-menu-wrapper{
+   background: #fff;
+}
+.main-menu li:hover li:hover >a{
+   background-color: #06d6a0;
+}
+.mega-menu-wrapper h4 span {
+   color: #06d6a0;
+}
+/* End Dropdown menu */
+/* Slider Area */
+body, html{
+   height: 100%;
+}
+/* End Slide Area */
+.slicknav_btn {
+   background-color: #06d6a0;
+}
+.slicknav_nav .slicknav_row:hover {
+   background: #06d6a0;
+}
+.slicknav_nav a:hover {
+   background: #06d6a0;
+}
+.slicknav_nav li a {
+   display: block;
+}
+
+.overflow-x .owl-stage{
+   overflow: hidden;
+}
+
+body.boxed-layout .site, body.boxed-layout .homepage-slides {
+   max-width: 1170px;
+   margin: 20px auto;
+   background: #fff;
+   overflow: hidden;
+}
+
+body.boxed-layout .site{
+   margin-top: 0;
+}
+body.boxed-layout .homepage-slides{
+   margin-bottom: 0;
+}
+
+

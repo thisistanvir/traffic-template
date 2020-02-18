@@ -1,0 +1,55 @@
+a:hover,
+a:hover i,
+.main-menu li a:hover,
+.footer-menu li a:hover {
+	color: #2ecc71 !important;
+   text-decoration: none;
+   transition: .3s;
+}
+.btn.boxed-btn {
+   background: #2ecc71;
+   border: 2px solid #2ecc71;
+}
+
+/* Dropdown Menu */
+.main-menu li ul, .mega-menu-wrapper{
+   background: #fff;
+}
+
+.main-menu li .mega-menu-wrapper h4, .main-menu li .mega-menu-wrapper a{
+   color: #888888;
+}
+.main-menu li:hover li:hover >a{
+   background-color: #2ecc71;
+}
+.mega-menu-wrapper h4 span {
+   color: #2ecc71;
+}
+/* End Dropdown menu */
+.slicknav_btn {
+   background-color: #2ecc71;
+}
+.slicknav_nav .slicknav_row:hover {
+   background: #2ecc71;
+}
+.slicknav_nav a:hover {
+   background: #2ecc71;
+}
+
+
+
+
+{
+
+   background-color: red;
+}
+
+{
+
+   border-color: red;
+}
+
+{
+
+   color: red !important;
+}

@@ -1,0 +1,113 @@
+a:hover,
+a:hover i,
+input[type=submit]:hover,
+.main-menu li a:hover,
+.footer-menu li a:hover,
+.subscribe-form input[type=submit]:hover,
+.hero-forms input[type=submit]:hover,
+.contact-form input[type="submit"]:hover,
+.comment-area input[type=submit]:hover {
+   background: transparent;
+	color: #06d6a0 !important;
+   text-decoration: none;
+   transition: .3s;
+}
+.btn.boxed-btn, input[type=submit], .subscribe-form input[type=submit], .hero-forms input[type=submit], .contact-form input[type="submit"], .comment-area input[type=submit], .analytics-forms input[type=submit] {
+   background: #06d6a0;
+   border: 2px solid #06d6a0;
+   color: #fff;
+}
+.btn.boxed-btn:hover{
+   background: transparent;
+   color: #06d6a0;
+}
+h1, h2, h3, h4, h5, h6{ font-weight: normal;}
+body{font-weight: 300;line-height: 1.7;}
+
+/* Dropdown Menu */
+.main-menu li ul, .mega-menu-wrapper{
+   background: #fff;
+}
+.main-menu li .mega-menu-wrapper h4, .main-menu li .mega-menu-wrapper a{
+   color: #888888;
+}
+.main-menu li:hover li:hover >a{
+   background-color: #06d6a0;
+}
+.mega-menu-wrapper h4 span {
+   color: #06d6a0;
+}
+/* End Dropdown menu */
+/* Start Mobile Menu */
+.slicknav_btn {
+   background-color: #06d6a0 !important;
+}
+.slicknav_btn:hover {
+   background: #06d6a0;
+}
+.slicknav_nav .slicknav_row:hover {
+   background: #06d6a0;
+}
+.slicknav_nav a:hover{
+   background: #06d6a0;
+}
+/* End Mobile Menu */
+/* Start Hero Area */
+body, html, .hero-area.theme-4 {
+   height: 100%;
+}
+.analytics-forms input {
+   background-color: #073b4c;
+   color: #fff;
+}
+/* End Hero Area */
+
+.single-service-box:hover, .single-service-box:hover .service-icon i, .single-service-box:hover h4, .single-service-box:hover .service-readmore-btn, .single-pricing-box:hover, .single-pricing-box:hover .pricing-box-heading h1 {
+   border-color: #06d6a0;
+   color: #06d6a0;
+}
+.pricing-box-heading h5, .pricing-box-heading h1{
+   font-weight: normal;
+}
+.single-pricing-box:hover .pricing-box-heading:after{
+   background: #06d6a0;
+}
+.services_v3-about-bg {
+   width: 100%;
+   border-radius: 3px;
+   box-shadow: 0 0 8px #999;
+}
+
+.about-text-1 {
+   margin-bottom: 40px;
+}
+.boxed-case-study{margin: -15px 0;}
+.boxed-case-study .single-case-study-item{margin: 15px 0;}.theme-2 
+.boxed-case-study{margin: -25px 0;}
+.theme-2 .boxed-case-study .single-case-study-item{margin: 25px 0;}
+.testimonial-content h4, .single-testimonial-item h5 {
+   font-weight: normal;
+}
+.testimonial-carousel.owl-carousel .owl-dots button.active {
+   background: #06d6a0;
+}
+
+.map-area iframe {
+   width: 100%;
+   height: 350px;
+}
+
+
+body.boxed-layout .site-width, body.boxed-layout .hero-area.theme-4 {
+   max-width: 1170px;
+   margin: 20px auto;
+   background: #fff;
+   overflow: hidden;
+}
+
+body.boxed-layout .site-width{
+   margin-top: 0;
+}
+body.boxed-layout .hero-area.theme-4{
+   margin-bottom: 0;
+}

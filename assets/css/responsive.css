@@ -493,6 +493,11 @@
    width: 100%;
 }
 
+@media only screen and (max-width: 400px) {
+   .off-canvas-menu .table {
+      margin-top: -90px;
+  }
+}
 
 }
 /* Large Mobile :480px. */

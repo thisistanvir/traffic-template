@@ -471,11 +471,15 @@ input:focus[type="url"], input:focus[type="text"], input:focus[type="email"], in
    padding: 25px;
    background: #fff;
    z-index: 99;
-   display: table;
    margin-left: -320px;
    opacity: 0;
    visibility: hidden;
    transition: all .3s ease-in-out 0s;
+}
+.off-canvas-menu .table {
+   display: table;
+   width: 100%;
+   height: auto;
 }
 .canvas-menu {
 display: table-cell;
@@ -505,7 +509,6 @@ height: 100%;
    font-size: 20px;
    display: block;
    margin-bottom: 15px;
-   margin-left: -52px;
 }
 .canvas-socials-links {
 position: absolute;

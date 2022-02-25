@@ -1,463 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+		<!-- Title -->
+		<title>Services_details</title>
 
-<!-- Title -->
-<title>Services_details</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/Logo.png" />
 
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/Logo.png">
+		<!-- CSS Here -->
+		<link rel="stylesheet" href="assets/css/slicknav.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css" />
+		<link rel="stylesheet" href="assets/css/magnific-popup-1.1.0.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css" />
+		<link
+			rel="stylesheet"
+			href="assets/css/material-design-iconic-font.min.css"
+		/>
+		<link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css" />
+		<link rel="stylesheet" href="assets/css/default.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/theme-4.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
 
+		<link rel="stylesheet" href="assets/css/colornip.min.css" />
+		<link
+			id="theme"
+			rel="stylesheet"
+			href="assets/css/theme-colors//theme-default.css"
+		/>
+	</head>
+	<body>
+		<div class="Switcher">
+			<button id="Switcher__control" class="Switcher__control">
+				<img src="assets/css/theme-colors/color-nip.png" alt="" />
+			</button>
+			<h5 style="margin-bottom: 5px">Change Color</h5>
+			<ul id="colors" data-dir="assets/css/theme-colors/">
+				<li data-scheme="theme-default" data-color="#06d6a0"></li>
+				<li data-scheme="theme-orange" data-color="#f39c12"></li>
+				<li data-scheme="theme-green-sea" data-color="#16a085"></li>
+				<li data-scheme="theme-emerald" data-color="#2ecc71"></li>
+				<li data-scheme="theme-peace" data-color="#a4b0be"></li>
+				<li data-scheme="theme-lighter-purple" data-color="#a55eea"></li>
+				<li data-scheme="theme-dracula-orchid" data-color="#2d3436"></li>
+				<li data-scheme="theme-pink" data-color="#fd79a8"></li>
+				<li data-scheme="theme-ice-pack" data-color="#c7ecee"></li>
+			</ul>
+			<h5 class="layout">Change Layout</h5>
+			<div class="layout-changer">
+				<span class="boxed-layout">Boxed Layout</span>
+				<span class="wide-layout active">Wide Layout</span>
+			</div>
+		</div>
 
-<!-- CSS Here -->
-   <link rel="stylesheet" href="assets/css/slicknav.min.css">
-   <link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css">
-   <link rel="stylesheet" href="assets/css/magnific-popup-1.1.0.css">
-   <link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css">
-   <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
-   <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css">
-   <link rel="stylesheet" href="assets/css/default.css">
-   <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="assets/css/theme-4.css">
-   <link rel="stylesheet" href="assets/css/responsive.css">
-      
-   <link rel="stylesheet" href="assets/css/colornip.min.css">
-   <link id="theme" rel="stylesheet" href="assets/css/theme-colors//theme-default.css">
-      
-</head>
-<body>
+		<div class="site">
+			<!-- Header Area -->
+			<section class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 text-left">
+							<div class="site-logo">
+								<a href="index.html"
+									><img src="assets/img/Logo.png" alt="Traffic"
+								/></a>
+							</div>
+						</div>
+						<div class="col-lg-7 text-center">
+							<ul class="main-menu" id="mobile-menu">
+								<li>
+									<a href="index.html">Home</a>
+									<ul>
+										<li><a href="index.html">Homepage 1</a></li>
+										<li><a href="home-2.html">Homepage 2</a></li>
+										<li><a href="home-3.html">Homepage 3</a></li>
+										<li><a href="home-4.html">Homepage 4</a></li>
+									</ul>
+								</li>
 
-   
-   <div class="Switcher">
-      <button id="Switcher__control" class="Switcher__control">
-         <img src="assets/css/theme-colors/color-nip.png" alt="">
-      </button>
-      <h5 style="margin-bottom: 5px">Change Color</h5>
-      <ul id="colors" data-dir="assets/css/theme-colors/">
-         <li data-scheme="theme-default" data-color="#06d6a0"></li>
-          <li data-scheme="theme-orange" data-color="#f39c12"></li>
-          <li data-scheme="theme-green-sea" data-color="#16a085"></li>
-          <li data-scheme="theme-emerald" data-color="#2ecc71"></li>
-          <li data-scheme="theme-peace" data-color="#a4b0be"></li>
-          <li data-scheme="theme-lighter-purple" data-color="#a55eea"></li>
-          <li data-scheme="theme-dracula-orchid" data-color="#2d3436"></li>
-          <li data-scheme="theme-pink" data-color="#fd79a8"></li>
-          <li data-scheme="theme-ice-pack" data-color="#c7ecee"></li>
-      </ul>
-      <h5 class="layout">Change Layout</h5>
-      <div class="layout-changer">
-         <span class="boxed-layout">Boxed Layout</span>
-         <span class="wide-layout active">Wide Layout</span>
-      </div>
-  </div>
+								<li><a href="about.html">Features</a></li>
+								<li>
+									<a href="services_v1.html">Services</a>
+									<ul>
+										<li><a href="services_v1.html">Services 1</a></li>
+										<li><a href="services_v2.html">Services 2</a></li>
+										<li>
+											<a href="services_details.html">Services Details</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="case_study_v1.html">Case Studies</a>
+									<ul>
+										<li><a href="case_study_v1.html">Case Studies 1</a></li>
+										<li><a href="case_study_v2.html">Case Studies 2</a></li>
+										<li>
+											<a href="case_study_details.html">Case Studies Details</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="blog.html">Blog</a></li>
+								<li class="mega-menu">
+									<a href="">Pages</a>
+									<div class="mega-menu-wrapper">
+										<div class="row">
+											<div class="col-md-4">
+												<h4>Traffic is an <span>Awesome</span> template</h4>
+												<p>
+													Lorem ipsum dolor sit amet consectetur adipisicing
+													elit. Dignissimos velit unde nobis dolor.
+												</p>
+												<a class="btn boxed-btn" href="">Purchase Now</a>
+											</div>
+											<div class="col-md-3">
+												<h5>Main Pages</h5>
+												<ul>
+													<li><a href="index.html">Homepage</a></li>
+													<li><a href="about.html">Features</a></li>
+													<li><a href="services_v1.html">Services</a></li>
+													<li><a href="case_study_v1.html">Case Studies</a></li>
+													<li><a href="blog.html">Blog</a></li>
+													<li><a href="contact_us_v1.html">Contact</a></li>
+												</ul>
+											</div>
+											<div class="col-md-2">
+												<h5>Other Pages</h5>
+												<ul>
+													<li><a href="FAQ.html">FAQs</a></li>
+													<li><a href="pricing.html">Pricing</a></li>
+													<li><a href="free_seo_analysis.html">Quote</a></li>
+													<li><a href="team.html">Team</a></li>
+												</ul>
+											</div>
+											<div class="col-md-3">
+												<h5>Special Pages</h5>
+												<ul>
+													<li><a href="services_v2.html">Services 2</a></li>
+													<li>
+														<a href="services_details.html">Services Details</a>
+													</li>
+													<li>
+														<a href="case_study_v2.html">Case studies 2</a>
+													</li>
+													<li>
+														<a href="case_study_details.html"
+															>case_study_details</a
+														>
+													</li>
+													<li><a href="contact_us_v2.html">Contact 2</a></li>
+													<li><a href="single_blog.html">Single Blog</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="contact_us_v1.html">Contact</a>
+									<ul>
+										<li><a href="contact_us_v1.html">Contact-1</a></li>
+										<li><a href="contact_us_v2.html">Contact-2</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-3 text-right">
+							<a href="free_seo_analysis.html" class="btn boxed-btn"
+								>Free SEO Analysis</a
+							>
+							<div class="show-mobile-menu"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Header Area -->
+			<!-- Start Breadcrumb Area -->
+			<section class="breadcrumb-area breadcrumb-bg-v3 pt-120 pb-120">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3 text-center">
+							<h2>What we do for you</h2>
+							<p>
+								Everyday work is important, but it’s also time consuming. We can
+								help.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Breadcrumb Area -->
+			<!-- Start About Area -->
+			<section class="about-area theme-4 pt-100 pb-80">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 text-right">
+							<div class="tile-gallery">
+								<img src="assets/img/about-img4-1.jpg" alt="" />
+								<img
+									class="absolute-gallery-bg-2"
+									src="assets/img/about-img4-2.jpg"
+									alt=""
+								/>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="about-text mt-85">
+								<h3>Social Media Marketing</h3>
+								<p>
+									The Greenpeace activist, said the sandstorm was reminiscent of
+									those witnessed about two ago before a large-scale
+									reforestation campaign in northern China helped reduce the
+									number sandstorms reaching the capital.We have had a lucky few
+									years recently. Sandstorms have tradi been a problem for
+									Beijing and for the northern .
+								</p>
+								<p>
+									The Greenpeace activist, said the sandstorm was reminiscent of
+									those witnessed about two ago before a large-scale
+									reforestation campaign in northern China helped reduce the
+									number sandstorms reaching the capital.We have had a lucky.
+								</p>
+								<a href="about.html" class="inline-btn"
+									>Know More <i class="zmdi zmdi-arrow-right"></i
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Start how it work -->
+			<section class="how-it-works mobile-show pt-100 pb-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="about-text mt-25">
+								<div class="about-text-1">
+									<h4>Marketing & loyalty tools</h4>
+									<p>
+										Earth science Ph.D. student at Australian National
+										University and the lead author paper published in Nature on
+										Wednesday that may hold the answer. Mr. Jones and his colle
+										developed a model that simulates what’s happening in our
+										planet’s mantle, beneath crust that we live on, offering a
+										window to the center.
+									</p>
+								</div>
+								<div class="about-text-2">
+									<h4>Point of Sale</h4>
+									<p>
+										TEarth science Ph.D. student at Australian National
+										University and the lead author paper published in Nature on
+										Wednesday that may hold the answer. Mr. Jones and his coll
+										developed a model that simulates what’s happening in our
+										planet’s mantle, beneath crust that we live on, offering a
+										window to the center.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 text-right">
+							<img
+								class="services_v3-about-bg"
+								src="assets/img/services_v3-about-bg.jpg"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End About Area -->
+			<!-- Start Case Study Section -->
+			<section class="case-study-section theme-3 overflow-x pb-50">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3 text-center">
+							<div class="case-study-section-title mb-70">
+								<h3>Recent Case Study</h3>
+								<p>
+									Conveniently whiteboard ubiquitous niche markets and accurate
+									collaboration. Holisticly supply client-focused models B2B
+									processes.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="case-study-carousel-3 owl-carousel">
+							<div class="single-case-study-item">
+								<div class="case-study-bg case-study-bg-1">
+									<div class="case-study-inner">
+										<h4>Project Amenia</h4>
+										<p>Project Amenia</p>
+										<a href="case_study_details.html"
+											><i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="single-case-study-item">
+								<div class="case-study-bg case-study-bg-2">
+									<div class="case-study-inner">
+										<h4>Project Amenia</h4>
+										<p>Project Amenia</p>
+										<a href="case_study_details.html"
+											><i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="single-case-study-item">
+								<div class="case-study-bg case-study-bg-3">
+									<div class="case-study-inner">
+										<h4>Project Amenia</h4>
+										<p>Project Amenia</p>
+										<a href="case_study_details.html"
+											><i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="single-case-study-item">
+								<div class="case-study-bg case-study-bg-4">
+									<div class="case-study-inner">
+										<h4>Project Amenia</h4>
+										<p>Project Amenia</p>
+										<a href="case_study_details.html"
+											><i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="single-case-study-item">
+								<div class="case-study-bg case-study-bg-5">
+									<div class="case-study-inner">
+										<h4>Project Amenia</h4>
+										<p>Project Amenia</p>
+										<a href="case_study_details.html"
+											><i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="single-case-study-item">
+								<div class="case-study-bg case-study-bg-5">
+									<div class="case-study-inner">
+										<h4>Project Amenia</h4>
+										<p>Project Amenia</p>
+										<a href="case_study_details.html"
+											><i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Case Study Section -->
+			<!-- Start Pricing Area -->
+			<section class="pricing-area text-center pt-50 pb-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3">
+							<div class="pricing-section-title mb-70">
+								<h3>Our Best Pricing</h3>
+								<p>
+									Seamlessly leverage existing extensible customer service for
+									worldwide total fashion future-proof alignments through
+									leadership.
+								</p>
+							</div>
+						</div>
+					</div>
 
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-pricing-box">
+								<div class="pricing-box-heading">
+									<h5>Basic</h5>
+									<h1>$29.99</h1>
+									<p>per month</p>
+								</div>
+								<div class="pricing-box-content">
+									<p>Limited marketing & growth hacks</p>
+									<p>5 Analytics Campaigns</p>
+									<p>300 Keywords</p>
+									<p>250,000 Crawled Pages</p>
+									<p>Unlimited Updates</p>
+								</div>
+								<a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-pricing-box">
+								<div class="pricing-box-heading">
+									<h5>Pro</h5>
+									<h1>$69.99</h1>
+									<p>per month</p>
+								</div>
+								<div class="pricing-box-content">
+									<p>Limited marketing & growth hacks</p>
+									<p>15 Analytics Campaigns</p>
+									<p>800 Keywords</p>
+									<p>550,000 Crawled Pages</p>
+									<p>Unlimited Updates</p>
+								</div>
+								<a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-pricing-box">
+								<div class="pricing-box-heading">
+									<h5>Advance</h5>
+									<h1>$199.99</h1>
+									<p>per month</p>
+								</div>
+								<div class="pricing-box-content">
+									<p>Limited marketing & growth hacks</p>
+									<p>55 Analytics Campaigns</p>
+									<p>1500 Keywords</p>
+									<p>950,000 Crawled Pages</p>
+									<p>Unlimited Updates</p>
+								</div>
+								<a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Pricing Area -->
+			<!-- Start CTA Area -->
+			<section class="cta-section theme-4 service_v3-bg pt-60 pb-60">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 text-center">
+							<h1>Create your own markeitng website</h1>
+							<p>
+								Writers and stars of Veep have responded incredulously to the
+								news an Australian politician required stitches Graham Perrett,
+								a federal Labor MP in Queensland, was eating
+							</p>
+							<a href="" class="btn boxed-btn">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End CTA Area -->
+			<!-- Start Footer Area -->
+			<section class="footer-section pt-100 pb-70">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="footer-widget">
+										<h5>Product</h5>
+										<ul class="footer-widget-menu">
+											<li><a href="">Features</a></li>
+											<li><a href="">Pricing</a></li>
+											<li><a href="">Customers</a></li>
+											<li><a href="">Page Builder</a></li>
+											<li><a href="">What's new</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="footer-widget">
+										<h5>Company</h5>
+										<ul class="footer-widget-menu">
+											<li><a href="">About Us</a></li>
+											<li><a href="">Try Demo</a></li>
+											<li><a href="">Terms of Service</a></li>
+											<li><a href="">Page Builder</a></li>
+											<li><a href="">Privacy Policy</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="footer-widget">
+										<h5>Help Center</h5>
+										<ul class="footer-widget-menu">
+											<li><a href="">Help center</a></li>
+											<li><a href="">Email Us</a></li>
+											<li><a href="">Message Us</a></li>
+											<li><a href="">Blog</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12">
+							<div class="footer-widget">
+								<h5>Sign Up to Our Weekly Newsletter</h5>
+								<div class="subscribe-form">
+									<form action="services_details.html">
+										<input type="email" placeholder="Email Address.." />
+										<input type="submit" value="Sign Up" />
+									</form>
+								</div>
+								<div class="footer-social">
+									<h5>Social</h5>
+									<ul class="social-links">
+										<li>
+											<a target="_blank" href=""
+												><i class="fab fa-facebook-f"></i> Facebook</a
+											>
+										</li>
+										<li>
+											<a target="_blank" href=""
+												><i class="fab fa-twitter"></i> Twitter</a
+											>
+										</li>
+										<li>
+											<a target="_blank" href=""
+												><i class="fab fa-pinterest"></i> Pinterest</a
+											>
+										</li>
+										<li>
+											<a target="_blank" href=""
+												><i class="fab fa-linkedin-in"></i> Linkedin</a
+											>
+										</li>
+										<li>
+											<a target="_blank" href=""
+												><i class="fab fa-instagram"></i> Instagram</a
+											>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--  -->
+			<!-- Start Copyright Area -->
+			<div class="copyright-section text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p>
+								&copy; Traffic 2017. All rights reserved . Powered By
+								<a target="_blank" href="https://itanvir.net">iTanvir</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Copyright Area -->
+		</div>
+		<!-- JS -->
+		<!-- Jquery -->
+		<script src="assets/js/jquery-3.4.1.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap-4.3.1.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup-1.1.0.min.js"></script>
+		<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+		<script src="assets/js/owl.carousel-2.3.4.min.js"></script>
+		<script src="assets/js/owl.carousel2.thumbs.min.js"></script>
+		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<script src="assets/js/colornip.min.js"></script>
 
-<div class="site">
-   <!-- Header Area -->
-   <section class="header-area">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-2 text-left">
-               <div class="site-logo">
-                  <a href="index.html"><img src="assets/img/Logo.png" alt="Traffic"></a>
-               </div>
-            </div>
-            <div class="col-lg-7 text-center">
-               <ul class="main-menu" id="mobile-menu">
-                  <li><a href="index.html">Home</a>
-                     <ul>
-                        <li><a href="index.html">Homepage 1</a></li>
-                        <li><a href="home-2.html">Homepage 2</a></li>
-                        <li><a href="home-3.html">Homepage 3</a></li>
-                        <li><a href="home-4.html">Homepage 4</a></li>
-                     </ul>
-                  </li>
-
-                  <li><a href="about.html">Features</a></li>
-                  <li><a href="services_v1.html">Services</a>
-                     <ul>
-                        <li><a href="services_v1.html">Services 1</a></li>
-                        <li><a href="services_v2.html">Services 2</a></li>
-                        <li><a href="services_details.html">Services Details</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="case_study_v1.html">Case Studies</a>
-                     <ul>
-                        <li><a href="case_study_v1.html">Case Studies 1</a></li>
-                        <li><a href="case_study_v2.html">Case Studies 2</a></li>
-                        <li><a href="case_study_details.html">Case Studies Details</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li class="mega-menu"><a href="">Pages</a>
-                     <div class="mega-menu-wrapper">
-                        <div class="row">
-                              <div class="col-md-4">
-                                 <h4>Traffic is an <span>Awesome</span> template</h4>
-                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit unde nobis dolor.</p>
-                                 <a class="btn boxed-btn" href="">Purchase Now</a>
-                              </div>
-                              <div class="col-md-3">
-                                 <h5>Main Pages</h5>
-                                 <ul>
-                                    <li><a href="index.html">Homepage</a></li>
-                                    <li><a href="about.html">Features</a></li>
-                                    <li><a href="services_v1.html">Services</a></li>
-                                    <li><a href="case_study_v1.html">Case Studies</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact_us_v1.html">Contact</a></li>
-                                 </ul>
-                              </div>
-                              <div class="col-md-2">
-                                    <h5>Other Pages</h5>
-                                 <ul>
-                                    <li><a href="FAQ.html">FAQs</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="free_seo_analysis.html">Quote</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                 </ul>
-                              </div>
-                              <div class="col-md-3">
-                                    <h5>Special Pages</h5>
-                                 <ul>
-                                    <li><a href="services_v2.html">Services 2</a></li>
-                                    <li><a href="services_details.html">Services Details</a></li>
-                                    <li><a href="case_study_v2.html">Case studies 2</a></li>
-                                    <li><a href="case_study_details.html">case_study_details</a></li>
-                                    <li><a href="contact_us_v2.html">Contact 2</a></li>
-                                    <li><a href="single_blog.html">Single Blog</a></li>
-                                 </ul>
-                              </div>
-                        </div>
-                     </div>
-                  </li>
-                  <li><a href="contact_us_v1.html">Contact</a>
-                     <ul>
-                        <li><a href="contact_us_v1.html">Contact-1</a></li>
-                        <li><a href="contact_us_v2.html">Contact-2</a></li>
-                     </ul>
-                  </li>
-               </ul>
-            </div>
-            <div class="col-lg-3 text-right">
-               <a href="free_seo_analysis.html" class="btn boxed-btn">Free SEO Analysis</a>
-               <div class="show-mobile-menu"></div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Header Area -->
-   <!-- Start Breadcrumb Area -->
-   <section class="breadcrumb-area breadcrumb-bg-v3 pt-120 pb-120">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center">
-               <h2>What we do for you</h2>
-               <p>Everyday work is important, but it’s also time consuming. We can help.</p>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Breadcrumb Area -->
-   <!-- Start About Area -->
-   <section class="about-area theme-4 pt-100 pb-80">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 text-right">
-               <div class="tile-gallery">
-                  <img src="assets/img/about-img4-1.jpg" alt="">
-                  <img class="absolute-gallery-bg-2" src="assets/img/about-img4-2.jpg" alt="">
-               </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="about-text mt-85">
-                  <h3>Social Media Marketing</h3>
-                  <p>The Greenpeace activist, said the sandstorm was reminiscent of those witnessed about two ago before a large-scale reforestation campaign in northern China helped reduce the number sandstorms reaching the capital.We have had a lucky few years recently. Sandstorms have tradi been a problem for Beijing and for the northern .</p>
-                  <p>The Greenpeace activist, said the sandstorm was reminiscent of those witnessed about two  ago before a large-scale reforestation campaign in northern China helped reduce the number sandstorms reaching the capital.We have had a lucky.</p>
-                  <a href="about.html" class="inline-btn">Know More <i class="zmdi zmdi-arrow-right"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- Start how it work -->
-   <section class="how-it-works mobile-show pt-100 pb-100">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6">
-               <div class="about-text mt-25">
-                  <div class="about-text-1">
-                     <h4>Marketing & loyalty tools</h4>
-                     <p>Earth science Ph.D. student at Australian National University and the lead author paper published in Nature on Wednesday that may hold the answer. Mr. Jones and his colle developed a model that simulates what’s happening in our planet’s mantle, beneath crust that we live on, offering a window to the center.</p>
-                  </div>
-                  <div class="about-text-2">
-                     <h4>Point of Sale</h4>
-                     <p>TEarth science Ph.D. student at Australian National University and the lead author paper published in Nature on Wednesday that may hold the answer. Mr. Jones and his coll developed a model that simulates what’s happening in our planet’s mantle, beneath crust that we live on, offering a window to the center.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-6 text-right">
-               <img class="services_v3-about-bg" src="assets/img/services_v3-about-bg.jpg" alt="">
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End About Area -->
-   <!-- Start Case Study Section -->
-   <section class="case-study-section theme-3 overflow-x pb-50">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center">
-               <div class="case-study-section-title mb-70">
-                  <h3>Recent Case Study</h3>
-                  <p>Conveniently whiteboard ubiquitous niche markets and accurate collaboration. Holisticly supply client-focused models B2B processes.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-      
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="case-study-carousel-3 owl-carousel">
-               <div class="single-case-study-item">
-                  <div class="case-study-bg case-study-bg-1">
-                     <div class="case-study-inner">
-                        <h4>Project Amenia</h4>
-                        <p>Project Amenia</p>
-                        <a href="case_study_details.html"><i class="fas fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="single-case-study-item">
-                  <div class="case-study-bg case-study-bg-2">
-                     <div class="case-study-inner">
-                        <h4>Project Amenia</h4>
-                        <p>Project Amenia</p>
-                        <a href="case_study_details.html"><i class="fas fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="single-case-study-item">
-                  <div class="case-study-bg case-study-bg-3">
-                     <div class="case-study-inner">
-                        <h4>Project Amenia</h4>
-                        <p>Project Amenia</p>
-                        <a href="case_study_details.html"><i class="fas fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="single-case-study-item">
-                  <div class="case-study-bg case-study-bg-4">
-                     <div class="case-study-inner">
-                        <h4>Project Amenia</h4>
-                        <p>Project Amenia</p>
-                        <a href="case_study_details.html"><i class="fas fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="single-case-study-item">
-                  <div class="case-study-bg case-study-bg-5">
-                     <div class="case-study-inner">
-                        <h4>Project Amenia</h4>
-                        <p>Project Amenia</p>
-                        <a href="case_study_details.html"><i class="fas fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="single-case-study-item">
-                  <div class="case-study-bg case-study-bg-5">
-                     <div class="case-study-inner">
-                        <h4>Project Amenia</h4>
-                        <p>Project Amenia</p>
-                        <a href="case_study_details.html"><i class="fas fa-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Case Study Section -->
-   <!-- Start Pricing Area -->
-   <section class="pricing-area text-center pt-50 pb-100">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-               <div class="pricing-section-title mb-70">
-                  <h3>Our Best Pricing</h3>
-                  <p>Seamlessly leverage existing extensible customer service for worldwide total fashion future-proof alignments through leadership.</p>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="col-lg-4">
-               <div class="single-pricing-box">
-                  <div class="pricing-box-heading">
-                     <h5>Basic</h5>
-                     <h1>$29.99</h1>
-                     <p>per month</p>
-                  </div>
-                  <div class="pricing-box-content">
-                     <p>Limited marketing & growth hacks</p>
-                     <p>5 Analytics Campaigns</p>
-                     <p>300 Keywords</p>
-                     <p>250,000 Crawled Pages</p>
-                     <p>Unlimited Updates</p>
-                  </div>
-                  <a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="single-pricing-box">
-                  <div class="pricing-box-heading">
-                     <h5>Pro</h5>
-                     <h1>$69.99</h1>
-                     <p>per month</p>
-                  </div>
-                  <div class="pricing-box-content">
-                     <p>Limited marketing & growth hacks</p>
-                     <p>15 Analytics Campaigns</p>
-                     <p>800 Keywords</p>
-                     <p>550,000 Crawled Pages</p>
-                     <p>Unlimited Updates</p>
-                  </div>
-                  <a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="single-pricing-box">
-                  <div class="pricing-box-heading">
-                     <h5>Advance</h5>
-                     <h1>$199.99</h1>
-                     <p>per month</p>
-                  </div>
-                  <div class="pricing-box-content">
-                     <p>Limited marketing & growth hacks</p>
-                     <p>55 Analytics Campaigns</p>
-                     <p>1500 Keywords</p>
-                     <p>950,000 Crawled Pages</p>
-                     <p>Unlimited Updates</p>
-                  </div>
-                  <a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Pricing Area -->
-   <!-- Start CTA Area -->
-   <section class="cta-section theme-4 service_v3-bg pt-60 pb-60">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 offset-lg-2 text-center">
-               <h1>Create your own markeitng website</h1>
-               <p>Writers and stars of Veep have responded incredulously to the news an Australian politician required stitches Graham Perrett, a federal Labor MP in Queensland, was eating </p>
-               <a href="" class="btn boxed-btn">Buy Now</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End CTA Area -->
-   <!-- Start Footer Area -->
-   <section class="footer-section pt-100 pb-70">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 col-md-12">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="footer-widget">
-                        <h5>Product</h5>
-                        <ul class="footer-widget-menu">
-                           <li><a href="">Features</a></li>
-                           <li><a href="">Pricing</a></li>
-                           <li><a href="">Customers</a></li>
-                           <li><a href="">Page Builder</a></li>
-                           <li><a href="">What's new</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="footer-widget">
-                        <h5>Company</h5>
-                        <ul class="footer-widget-menu">
-                           <li><a href="">About Us</a></li>
-                           <li><a href="">Try Demo</a></li>
-                           <li><a href="">Terms of Service</a></li>
-                           <li><a href="">Page Builder</a></li>
-                           <li><a href="">Privacy Policy</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="footer-widget">
-                        <h5>Help Center</h5>
-                        <ul class="footer-widget-menu">
-                           <li><a href="">Help center</a></li>
-                           <li><a href="">Email Us</a></li>
-                           <li><a href="">Message Us</a></li>
-                           <li><a href="">Blog</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-               <div class="footer-widget">
-                  <h5>Sign Up to Our Weekly Newsletter</h5>  
-                  <div class="subscribe-form">
-                     <form action="services_details.html">
-                        <input type="email" placeholder="Email Address..">
-                        <input type="submit" value="Sign Up">
-                     </form>
-                  </div>
-                  <div class="footer-social">
-                     <h5>Social</h5>
-                     <ul class="social-links">
-                        <li><a target="_blank" href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                        <li><a target="_blank" href=""><i class="fab fa-twitter"></i> Twitter</a></li>
-                        <li><a target="_blank" href=""><i class="fab fa-pinterest"></i> Pinterest</a></li>
-                        <li><a target="_blank" href=""><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
-                        <li><a target="_blank" href=""><i class="fab fa-instagram"></i> Instagram</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!--  -->
-   <!-- Start Copyright Area -->
-   <div class="copyright-section text-center">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <p>&copy; Traffic 2017. All rights reserved . Powered By <a target="_blank" href="www.itanvir.net">iTanvir</a>.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- End Copyright Area -->
-</div>
-<!-- JS -->
-   <!-- Jquery -->
-   <script src="assets/js/jquery-3.4.1.min.js"></script>
-   <script src="assets/js/popper.min.js"></script>
-   <script src="assets/js/bootstrap-4.3.1.min.js"></script>
-   <script src="assets/js/jquery.magnific-popup-1.1.0.min.js"></script>
-   <script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
-   <script src="assets/js/owl.carousel-2.3.4.min.js"></script>
-   <script src="assets/js/owl.carousel2.thumbs.min.js"></script>
-   <script src="assets/js/jquery.slicknav.min.js"></script>
-   <script src="assets/js/colornip.min.js"></script>
-
-   <!-- Main.js -->
-   <script src="assets/js/main.js"></script>
-</body>
+		<!-- Main.js -->
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>

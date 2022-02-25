@@ -1,537 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+		<!-- Title -->
+		<title>Traffic</title>
 
-<!-- Title -->
-<title>Traffic</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/Logo.png" />
 
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/Logo.png">
+		<!-- CSS Here -->
+		<link rel="stylesheet" href="assets/css/slicknav.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css" />
+		<link rel="stylesheet" href="assets/css/magnific-popup-1.1.0.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css" />
+		<link
+			rel="stylesheet"
+			href="assets/css/material-design-iconic-font.min.css"
+		/>
+		<link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css" />
+		<link rel="stylesheet" href="assets/css/default.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/theme-2.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
 
+		<link rel="stylesheet" href="assets/css/colornip.min.css" />
+		<link
+			id="theme"
+			rel="stylesheet"
+			href="assets/css/theme-colors//theme-default.css"
+		/>
+	</head>
+	<body>
+		<div class="Switcher">
+			<button id="Switcher__control" class="Switcher__control">
+				<img src="assets/css/theme-colors/color-nip.png" alt="" />
+			</button>
+			<h5 style="margin-bottom: 5px">Change Color</h5>
+			<ul id="colors" data-dir="assets/css/theme-colors/">
+				<li data-scheme="theme-default" data-color="#2ecc71"></li>
+				<li data-scheme="theme-orange" data-color="#f39c12"></li>
+				<li data-scheme="theme-green-sea" data-color="#16a085"></li>
+				<li data-scheme="theme-emerald" data-color="#2ecc71"></li>
+				<li data-scheme="theme-peace" data-color="#a4b0be"></li>
+				<li data-scheme="theme-lighter-purple" data-color="#a55eea"></li>
+				<li data-scheme="theme-dracula-orchid" data-color="#2d3436"></li>
+				<li data-scheme="theme-pink" data-color="#fd79a8"></li>
+				<li data-scheme="theme-ice-pack" data-color="#c7ecee"></li>
+			</ul>
+			<h5 class="layout">Change Layout</h5>
+			<div class="layout-changer">
+				<span class="boxed-layout">Boxed Layout</span>
+				<span class="wide-layout active">Wide Layout</span>
+			</div>
+		</div>
 
-<!-- CSS Here -->
-   <link rel="stylesheet" href="assets/css/slicknav.min.css">
-   <link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css">
-   <link rel="stylesheet" href="assets/css/magnific-popup-1.1.0.css">
-   <link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css">
-   <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
-   <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css">
-   <link rel="stylesheet" href="assets/css/default.css">
-   <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="assets/css/theme-2.css">
-   <link rel="stylesheet" href="assets/css/responsive.css">
+		<div class="site">
+			<!-- Header Area -->
+			<section class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 text-left">
+							<div class="site-logo">
+								<a href="index.html"
+									><img src="assets/img/Logo.png" alt="Traffic"
+								/></a>
+							</div>
+						</div>
+						<div class="col-lg-7 col-md-8 text-center">
+							<ul class="main-menu" id="mobile-menu">
+								<li>
+									<a href="index.html">Home</a>
+									<ul>
+										<li><a href="index.html">Homepage 1</a></li>
+										<li><a href="home-2.html">Homepage 2</a></li>
+										<li><a href="home-3.html">Homepage 3</a></li>
+										<li><a href="home-4.html">Homepage 4</a></li>
+									</ul>
+								</li>
 
-   
-   <link rel="stylesheet" href="assets/css/colornip.min.css">
-   <link id="theme" rel="stylesheet" href="assets/css/theme-colors//theme-default.css">
-      
-</head>
-<body>
+								<li><a href="about.html">Features</a></li>
+								<li>
+									<a href="services_v1.html">Services</a>
+									<ul>
+										<li><a href="services_v1.html">Services 1</a></li>
+										<li><a href="services_v2.html">Services 2</a></li>
+										<li>
+											<a href="services_details.html">Services Details</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="case_study_v1.html">Case Studies</a>
+									<ul>
+										<li><a href="case_study_v1.html">Case Studies 1</a></li>
+										<li><a href="case_study_v2.html">Case Studies 2</a></li>
+										<li>
+											<a href="case_study_details.html">Case Studies Details</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="blog.html">Blog</a></li>
+								<li class="mega-menu">
+									<a href="">Pages</a>
+									<div class="mega-menu-wrapper">
+										<div class="row">
+											<div class="col-md-4">
+												<h4>Traffic is an <span>Awesome</span> template</h4>
+												<p>
+													Lorem ipsum dolor sit amet consectetur adipisicing
+													elit. Dignissimos velit unde nobis dolor.
+												</p>
+												<a class="btn boxed-btn" href="">Purchase Now</a>
+											</div>
+											<div class="col-md-3">
+												<h5>Main Pages</h5>
+												<ul>
+													<li><a href="index.html">Homepage</a></li>
+													<li><a href="about.html">Features</a></li>
+													<li><a href="services_v1.html">Services</a></li>
+													<li><a href="case_study_v1.html">Case Studies</a></li>
+													<li><a href="blog.html">Blog</a></li>
+													<li><a href="contact_us_v1.html">Contact</a></li>
+												</ul>
+											</div>
+											<div class="col-md-2">
+												<h5>Other Pages</h5>
+												<ul>
+													<li><a href="FAQ.html">FAQs</a></li>
+													<li><a href="pricing.html">Pricing</a></li>
+													<li><a href="free_seo_analysis.html">Quote</a></li>
+													<li><a href="team.html">Team</a></li>
+												</ul>
+											</div>
+											<div class="col-md-3">
+												<h5>Special Pages</h5>
+												<ul>
+													<li><a href="services_v2.html">Services 2</a></li>
+													<li>
+														<a href="services_details.html">Services Details</a>
+													</li>
+													<li>
+														<a href="case_study_v2.html">Case studies 2</a>
+													</li>
+													<li>
+														<a href="case_study_details.html"
+															>case_study_details</a
+														>
+													</li>
+													<li><a href="contact_us_v2.html">Contact 2</a></li>
+													<li><a href="single_blog.html">Single Blog</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="contact_us_v1.html">Contact</a>
+									<ul>
+										<li><a href="contact_us_v1.html">Contact-1</a></li>
+										<li><a href="contact_us_v2.html">Contact-2</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-3 text-right">
+							<a href="free_seo_analysis.html" class="btn boxed-btn"
+								>Free SEO Analysis</a
+							>
+							<div class="show-mobile-menu"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Header Area -->
+			<!-- Start Hero Area -->
+			<section class="hero-area theme-2 pt-100 pb-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5">
+							<div class="hero-text mt-150">
+								<h1>
+									Great things in <br />business are never <br />done by one
+									person.
+								</h1>
+								<p>
+									Traffic is a great platform to stand out your website. So try
+									now. Distinct mesh timely systems after best-of-breed
+									strategic theme
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 offset-lg-3 text-right">
+							<div class="hero-form">
+								<div class="hero-form-header">
+									<h4>Get Your SEO Score</h4>
+									<p>Grab your website seo score now</p>
+								</div>
+								<div class="hero-forms">
+									<form action="free_seo_analysis.html">
+										<input type="text" placeholder="Your Name" />
+										<input type="url" placeholder="Your Website Link" />
+										<input type="text" placeholder="Keywords" />
+										<input type="email" placeholder="Your Email" />
+										<input type="submit" value="Get Your Score" />
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Hero Area -->
+			<!-- Start About Area -->
+			<section class="about-area pt-100 pb-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<img src="assets/img/about-img-2.png" alt="About" />
+						</div>
+						<div class="col-lg-5 offset-lg-1 text-right">
+							<div class="about-text mt-40">
+								<h4>The Fastest Growing Digital Marketing Agency</h4>
+								<p>
+									I take great pride in owning a company that has received the
+									level of success accolades that have been bestowed upon
+									WebiMax.grow tactical strategic them areas with customer
+									directed ideas. Distinctively productivate transparent core
+									etencies rather than prospective e-services.
+								</p>
+								<a href="home-2.html" class="btn boxed-btn">Know More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End About Area -->
+			<!-- Start Service Section -->
+			<section class="service-area theme-2 pb-120">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3 text-center">
+							<div class="service-area-title mb-70">
+								<h3>Grab Our Awesome Services</h3>
+								<p>
+									Whiteboard ubiquitous niche markets and accurate
+									collaboration. <br />Holistically supply client-focused models
+									B2B processes.
+								</p>
+							</div>
+						</div>
+					</div>
 
-   <div class="Switcher">
-      <button id="Switcher__control" class="Switcher__control">
-         <img src="assets/css/theme-colors/color-nip.png" alt="">
-      </button>
-      <h5 style="margin-bottom: 5px">Change Color</h5>
-      <ul id="colors" data-dir="assets/css/theme-colors/">
-         <li data-scheme="theme-default" data-color="#2ecc71"></li>
-          <li data-scheme="theme-orange" data-color="#f39c12"></li>
-          <li data-scheme="theme-green-sea" data-color="#16a085"></li>
-          <li data-scheme="theme-emerald" data-color="#2ecc71"></li>
-          <li data-scheme="theme-peace" data-color="#a4b0be"></li>
-          <li data-scheme="theme-lighter-purple" data-color="#a55eea"></li>
-          <li data-scheme="theme-dracula-orchid" data-color="#2d3436"></li>
-          <li data-scheme="theme-pink" data-color="#fd79a8"></li>
-          <li data-scheme="theme-ice-pack" data-color="#c7ecee"></li>
-      </ul>
-      <h5 class="layout">Change Layout</h5>
-      <div class="layout-changer">
-         <span class="boxed-layout">Boxed Layout</span>
-         <span class="wide-layout active">Wide Layout</span>
-      </div>
-  </div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 text-center">
+							<div class="single-service-box">
+								<div class="service-inner">
+									<img src="assets/img/service-icon2-1.png" alt="filter" />
+									<h4>Content marketing</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center">
+							<div class="single-service-box">
+								<div class="service-inner">
+									<img src="assets/img/service-icon2-2.png" alt="filter" />
+									<h4>Web Analytics</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center">
+							<div class="single-service-box">
+								<div class="service-inner">
+									<img src="assets/img/service-icon2-3.png" alt="filter" />
+									<h4>Virtual Marketing</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 text-center">
+							<div class="single-service-box">
+								<div class="service-inner">
+									<img src="assets/img/service-icon2-4.png" alt="filter" />
+									<h4>Inbound Marketing</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Service Section -->
+			<!-- Start Testimonial Area -->
+			<section class="testimonial-area theme-2 pt-70 pb-70">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 text-center">
+							<div class="testimonial-carousel theme-2 owl-carousel">
+								<div class="single-testimonial-preview">
+									<i class="fas fa-quote-right testimonial-icon"></i>
+									<p>
+										Quickly productize technically sound best practices before
+										integrated . Dynamically brand rather than resource-leveling
+										methods of empowerment. Appropriately deliver B2C
+										infomediaries impact granular applications without parallel
+										communities.
+									</p>
+									<h5>Shahriar Hossain <span>Founder at Oragon</span></h5>
+								</div>
+								<div class="single-testimonial-preview">
+									<i class="fas fa-quote-right testimonial-icon"></i>
+									<p>
+										Quickly productize technically sound best practices before
+										integrated . Dynamically brand rather than resource-leveling
+										methods of empowerment. Appropriately deliver B2C
+										infomediaries impact granular applications without parallel
+										communities.
+									</p>
+									<h5>Shahriar Hossain <span>Founder at Oragon</span></h5>
+								</div>
+								<div class="single-testimonial-preview">
+									<i class="fas fa-quote-right testimonial-icon"></i>
+									<p>
+										Quickly productize technically sound best practices before
+										integrated . Dynamically brand rather than resource-leveling
+										methods of empowerment. Appropriately deliver B2C
+										infomediaries impact granular applications without parallel
+										communities.
+									</p>
+									<h5>Shahriar Hossain <span>Founder at Oragon</span></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Testimonial Area -->
+			<!-- Start Case Study Section -->
+			<section class="case-study-section theme-2 pt-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3 text-center">
+							<div class="case-study-section-title mb-70">
+								<h3>Our Awesome Case Study</h3>
+								<p>
+									Whiteboard ubiquitous niche markets and accurate
+									collaboration. <br />Holisticly supply client-focused models
+									B2B processes.
+								</p>
+							</div>
+						</div>
+					</div>
 
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="case-study-carousel theme-2 owl-carousel">
+								<div class="single-case-study-item">
+									<div class="case-study-bg case-study-bg-1">
+										<div class="case-study-inner">
+											<a href="case_study_details.html" class="btn boxed-btn"
+												>See Case Study <i class="zmdi zmdi-arrow-right"></i
+											></a>
+										</div>
+									</div>
+									<h5>Project Alibaba UX <span>UI & UX Design</span></h5>
+								</div>
+								<div class="single-case-study-item">
+									<div class="case-study-bg case-study-bg-2">
+										<div class="case-study-inner">
+											<a href="case_study_details.html" class="btn boxed-btn"
+												>See Case Study <i class="zmdi zmdi-arrow-right"></i
+											></a>
+										</div>
+									</div>
+									<h5>Amazon Eco UI <span>UI & UX Design</span></h5>
+								</div>
+								<div class="single-case-study-item">
+									<div class="case-study-bg case-study-bg-3">
+										<div class="case-study-inner">
+											<a href="case_study_details.html" class="btn boxed-btn"
+												>See Case Study <i class="zmdi zmdi-arrow-right"></i
+											></a>
+										</div>
+									</div>
+									<h5>Mark Branding <span>Branding Design</span></h5>
+								</div>
+								<div class="single-case-study-item">
+									<div class="case-study-bg case-study-bg-3">
+										<div class="case-study-inner">
+											<a href="case_study_details.html" class="btn boxed-btn"
+												>See Case Study <i class="zmdi zmdi-arrow-right"></i
+											></a>
+										</div>
+									</div>
+									<h5>Mark Branding <span>Branding Design</span></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Case Study Section -->
+			<!-- Start Pricing Area -->
+			<section class="pricing-area theme-2 text-center pt-100 pb-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3">
+							<div class="pricing-section-title mb-70">
+								<h3>Check Our Awesome Pricing</h3>
+								<p>
+									Whiteboard ubiquitous niche markets and accurate
+									collaboration. Holisticly supply client-focused models B2B
+									processes.
+								</p>
+							</div>
+						</div>
+					</div>
 
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-pricing-box">
+								<div class="pricing-box-heading">
+									<h5>Basic</h5>
+									<h1>$29.99</h1>
+									<p>per month</p>
+								</div>
+								<div class="pricing-box-content">
+									<p>Limited marketing & growth hacks</p>
+									<p>5 Analytics Campaigns</p>
+									<p>300 Keywords</p>
+									<p>250,000 Crawled Pages</p>
+									<p>Unlimited Updates</p>
+								</div>
+							</div>
+							<a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-pricing-box">
+								<div class="pricing-box-heading">
+									<h5>Pro</h5>
+									<h1>$69.99</h1>
+									<p>per month</p>
+								</div>
+								<div class="pricing-box-content">
+									<p>Limited marketing & growth hacks</p>
+									<p>15 Analytics Campaigns</p>
+									<p>800 Keywords</p>
+									<p>550,000 Crawled Pages</p>
+									<p>Unlimited Updates</p>
+								</div>
+							</div>
+							<a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-pricing-box">
+								<div class="pricing-box-heading">
+									<h5>Advance</h5>
+									<h1>$199.99</h1>
+									<p>per month</p>
+								</div>
+								<div class="pricing-box-content">
+									<p>Limited marketing & growth hacks</p>
+									<p>55 Analytics Campaigns</p>
+									<p>1500 Keywords</p>
+									<p>950,000 Crawled Pages</p>
+									<p>Unlimited Updates</p>
+								</div>
+							</div>
+							<a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Pricing Area -->
+			<!-- Start Blog Area -->
+			<section class="blog-area theme-2 pb-120">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3">
+							<div class="blog-area-title mb-70 text-center">
+								<h3>Check Our Awesome Blog</h3>
+								<p>
+									Whiteboard ubiquitous niche markets and accurate
+									collaboration. <br />
+									Holisticly supply client-focused models B2B processes.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-blog-item">
+								<h5>
+									Credibly maintain client-centric <br />distributed
+									partnerships.
+								</h5>
+								<p>
+									Data before unique human capital. Energistically stand-alone
+									quality vectors after open-source inter Energistically
+									actualize global method..
+								</p>
+								<a href="single_blog.html" class="blog-readmore-btn"
+									>Read More <i class="zmdi zmdi-arrow-right"></i
+								></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-blog-item">
+								<h5>Intrinsicly enhance team driven total linkage premier.</h5>
+								<p>
+									Energistically architect interactive value whereas functional
+									niches. Appropriately productize premier materials for
+									visionary data..
+								</p>
+								<a href="single_blog.html" class="blog-readmore-btn"
+									>Read More <i class="zmdi zmdi-arrow-right"></i
+								></a>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-blog-item">
+								<h5>
+									Intrinsicly innovate pandemic mater <br />after error-free.
+								</h5>
+								<p>
+									Monotonectally leverage other's plug-and-play mar with
+									multifunctional infrastructures. envisioneer who interactive
+									potentialities through 24/7 paradigms.
+								</p>
+								<a href="single_blog.html" class="blog-readmore-btn"
+									>Read More <i class="zmdi zmdi-arrow-right"></i
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-<div class="site">
-   <!-- Header Area -->
-   <section class="header-area">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-2 text-left">
-               <div class="site-logo">
-                  <a href="index.html"><img src="assets/img/Logo.png" alt="Traffic"></a>
-               </div>
-            </div>
-            <div class="col-lg-7 col-md-8 text-center">
-               <ul class="main-menu" id="mobile-menu">
-                  <li><a href="index.html">Home</a>
-                     <ul>
-                        <li><a href="index.html">Homepage 1</a></li>
-                        <li><a href="home-2.html">Homepage 2</a></li>
-                        <li><a href="home-3.html">Homepage 3</a></li>
-                        <li><a href="home-4.html">Homepage 4</a></li>
-                     </ul>
-                  </li>
+			<!-- Start CTA Area -->
+			<section class="cta-section theme-2 pt-60 pb-60">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h3>Ready to improve your digital marketing efforts?</h3>
+							<a href="contact_us_v1.html" class="btn boxed-btn">Contact Us</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End CTA Area -->
+			<!-- Start Footer Area -->
+			<section class="footer-section theme-2 pt-100 pb-70">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-12">
+							<div class="footer-widget">
+								<div class="footer-logo">
+									<a href="index.html"
+										><img src="assets/img/Logo.png" alt=""
+									/></a>
+								</div>
+								<div class="footer-content">
+									Traffic is a great marking template with so many great
+									features. Traffic have 5 homepage and so many block with great
+									UI.
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="footer-widget">
+										<h5>Company</h5>
+										<ul class="footer-widget-menu">
+											<li><a href="">About Us</a></li>
+											<li><a href="">Try Demo</a></li>
+											<li><a href="">Terms of Service</a></li>
+											<li><a href="">Page Builder</a></li>
+											<li><a href="">Privacy Policy</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="footer-widget">
+										<h5>Help Center</h5>
+										<ul class="footer-widget-menu">
+											<li><a href="">Help center</a></li>
+											<li><a href="">Email Us</a></li>
+											<li><a href="">Message Us</a></li>
+											<li><a href="">Blog</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="footer-widget">
+										<h5>Follow Us</h5>
+										<div class="footer-social">
+											<ul class="social-links">
+												<li>
+													<a target="_blank" href=""
+														><i class="fab fa-facebook-f"></i> Facebook</a
+													>
+												</li>
+												<li>
+													<a target="_blank" href=""
+														><i class="fab fa-twitter"></i> Twitter</a
+													>
+												</li>
+												<li>
+													<a target="_blank" href=""
+														><i class="fab fa-pinterest"></i> Pinterest</a
+													>
+												</li>
+												<li>
+													<a target="_blank" href=""
+														><i class="fab fa-linkedin-in"></i> Linkedin</a
+													>
+												</li>
+												<li>
+													<a target="_blank" href=""
+														><i class="fab fa-instagram"></i> Instagram</a
+													>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--  -->
+			<!-- Start Copyright Area -->
+			<div class="copyright-section text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p>
+								&copy; Traffic 2017. All rights reserved . Powered By
+								<a target="_blank" href="https://itanvir.net">iTanvir</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Copyright Area -->
+		</div>
+		<!-- JS -->
+		<!-- Jquery -->
+		<script src="assets/js/jquery-3.4.1.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap-4.3.1.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup-1.1.0.min.js"></script>
+		<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+		<script src="assets/js/owl.carousel-2.3.4.min.js"></script>
+		<script src="assets/js/owl.carousel2.thumbs.min.js"></script>
+		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<script src="assets/js/colornip.min.js"></script>
 
-                  <li><a href="about.html">Features</a></li>
-                  <li><a href="services_v1.html">Services</a>
-                     <ul>
-                        <li><a href="services_v1.html">Services 1</a></li>
-                        <li><a href="services_v2.html">Services 2</a></li>
-                        <li><a href="services_details.html">Services Details</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="case_study_v1.html">Case Studies</a>
-                     <ul>
-                        <li><a href="case_study_v1.html">Case Studies 1</a></li>
-                        <li><a href="case_study_v2.html">Case Studies 2</a></li>
-                        <li><a href="case_study_details.html">Case Studies Details</a></li>
-                     </ul>
-                  </li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li class="mega-menu"><a href="">Pages</a>
-                     <div class="mega-menu-wrapper">
-                        <div class="row">
-                              <div class="col-md-4">
-                                 <h4>Traffic is an <span>Awesome</span> template</h4>
-                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit unde nobis dolor.</p>
-                                 <a class="btn boxed-btn" href="">Purchase Now</a>
-                              </div>
-                              <div class="col-md-3">
-                                 <h5>Main Pages</h5>
-                                 <ul>
-                                    <li><a href="index.html">Homepage</a></li>
-                                    <li><a href="about.html">Features</a></li>
-                                    <li><a href="services_v1.html">Services</a></li>
-                                    <li><a href="case_study_v1.html">Case Studies</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact_us_v1.html">Contact</a></li>
-                                 </ul>
-                              </div>
-                              <div class="col-md-2">
-                                    <h5>Other Pages</h5>
-                                 <ul>
-                                    <li><a href="FAQ.html">FAQs</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="free_seo_analysis.html">Quote</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                 </ul>
-                              </div>
-                              <div class="col-md-3">
-                                    <h5>Special Pages</h5>
-                                 <ul>
-                                    <li><a href="services_v2.html">Services 2</a></li>
-                                    <li><a href="services_details.html">Services Details</a></li>
-                                    <li><a href="case_study_v2.html">Case studies 2</a></li>
-                                    <li><a href="case_study_details.html">case_study_details</a></li>
-                                    <li><a href="contact_us_v2.html">Contact 2</a></li>
-                                    <li><a href="single_blog.html">Single Blog</a></li>
-                                 </ul>
-                              </div>
-                        </div>
-                     </div>
-                  </li>
-                  <li><a href="contact_us_v1.html">Contact</a>
-                     <ul>
-                        <li><a href="contact_us_v1.html">Contact-1</a></li>
-                        <li><a href="contact_us_v2.html">Contact-2</a></li>
-                     </ul>
-                  </li>
-               </ul>
-            </div>
-            <div class="col-lg-3 text-right">
-               <a href="free_seo_analysis.html" class="btn boxed-btn">Free SEO Analysis</a>
-               <div class="show-mobile-menu"></div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Header Area -->
-   <!-- Start Hero Area -->
-   <section class="hero-area theme-2 pt-100 pb-100">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-5">
-               <div class="hero-text mt-150">
-                  <h1>Great things in <br>business are never <br>done by one person.</h1>
-                  <p>Traffic is a great platform to stand out your website. So try now. Distinct mesh timely systems after best-of-breed strategic theme</p>
-               </div>
-            </div>
-            <div class="col-lg-4 offset-lg-3 text-right">
-               <div class="hero-form">
-                  <div class="hero-form-header">
-                     <h4>Get Your SEO Score</h4>
-                     <p>Grab your website seo score now</p>
-                  </div>
-                  <div class="hero-forms">
-                     <form action="free_seo_analysis.html">
-                        <input type="text" placeholder="Your Name">
-                        <input type="url" placeholder="Your Website Link">
-                        <input type="text" placeholder="Keywords">
-                        <input type="email" placeholder="Your Email">
-                        <input type="submit" value="Get Your Score">
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Hero Area -->
-   <!-- Start About Area -->
-   <section class="about-area pt-100 pb-100">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6">
-               <img src="assets/img/about-img-2.png" alt="About">
-            </div>
-            <div class="col-lg-5 offset-lg-1 text-right">
-               <div class="about-text mt-40">
-                  <h4>The Fastest Growing Digital Marketing Agency</h4>
-                  <p>I take great pride in owning a company that has received the level of success accolades that have been bestowed upon WebiMax.grow tactical strategic them areas with customer directed ideas. Distinctively productivate transparent core etencies rather than prospective e-services.</p>
-                  <a href="home-2.html" class="btn boxed-btn">Know More</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End About Area -->
-   <!-- Start Service Section -->
-   <section class="service-area theme-2 pb-120">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center">
-               <div class="service-area-title mb-70">
-                  <h3>Grab Our Awesome Services</h3>
-                  <p>Whiteboard ubiquitous niche markets and accurate collaboration. <br>Holistically supply client-focused models B2B processes. </p>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-               <div class="single-service-box">
-                  <div class="service-inner">
-                     <img src="assets/img/service-icon2-1.png" alt="filter">
-                     <h4>Content marketing</h4>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-               <div class="single-service-box">
-                  <div class="service-inner">
-                     <img src="assets/img/service-icon2-2.png" alt="filter">
-                     <h4>Web Analytics</h4>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-               <div class="single-service-box">
-                  <div class="service-inner">
-                     <img src="assets/img/service-icon2-3.png" alt="filter">
-                     <h4>Virtual Marketing</h4>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-               <div class="single-service-box">
-                  <div class="service-inner">
-                     <img src="assets/img/service-icon2-4.png" alt="filter">
-                     <h4>Inbound Marketing</h4>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Service Section -->
-   <!-- Start Testimonial Area -->
-   <section class="testimonial-area theme-2 pt-70 pb-70">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 offset-lg-2 text-center">
-               <div class="testimonial-carousel theme-2 owl-carousel">
-                  <div class="single-testimonial-preview">
-                     <i class="fas fa-quote-right testimonial-icon"></i>
-                     <p>Quickly productize technically sound best practices before integrated . Dynamically brand rather than resource-leveling methods of empowerment. Appropriately deliver B2C infomediaries impact granular applications without parallel communities.</p>
-                     <h5>Shahriar Hossain <span>Founder at Oragon</span></h5>
-                  </div>
-                  <div class="single-testimonial-preview">
-                     <i class="fas fa-quote-right testimonial-icon"></i>
-                     <p>Quickly productize technically sound best practices before integrated . Dynamically brand rather than resource-leveling methods of empowerment. Appropriately deliver B2C infomediaries impact granular applications without parallel communities.</p>
-                     <h5>Shahriar Hossain <span>Founder at Oragon</span></h5>
-                  </div>
-                  <div class="single-testimonial-preview">
-                     <i class="fas fa-quote-right testimonial-icon"></i>
-                     <p>Quickly productize technically sound best practices before integrated . Dynamically brand rather than resource-leveling methods of empowerment. Appropriately deliver B2C infomediaries impact granular applications without parallel communities.</p>
-                     <h5>Shahriar Hossain <span>Founder at Oragon</span></h5>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Testimonial Area -->
-   <!-- Start Case Study Section -->
-   <section class="case-study-section theme-2 pt-100">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center">
-               <div class="case-study-section-title mb-70">
-                  <h3>Our Awesome Case Study</h3>
-                  <p>Whiteboard ubiquitous niche markets and accurate collaboration. <br>Holisticly supply client-focused models B2B processes.</p>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="case-study-carousel theme-2 owl-carousel">
-                  <div class="single-case-study-item">
-                     <div class="case-study-bg case-study-bg-1">
-                        <div class="case-study-inner">
-                           <a href="case_study_details.html" class="btn boxed-btn">See Case Study <i class="zmdi zmdi-arrow-right"></i></a>
-                        </div>
-                     </div>
-                     <h5>Project Alibaba UX <span>UI & UX Design</span></h5>
-                  </div>
-                  <div class="single-case-study-item">
-                     <div class="case-study-bg case-study-bg-2">
-                        <div class="case-study-inner">
-                           <a href="case_study_details.html" class="btn boxed-btn">See Case Study <i class="zmdi zmdi-arrow-right"></i></a>
-                        </div>
-                     </div>
-                     <h5>Amazon Eco UI <span>UI & UX Design</span></h5>
-                  </div>
-                  <div class="single-case-study-item">
-                     <div class="case-study-bg case-study-bg-3">
-                        <div class="case-study-inner">
-                           <a href="case_study_details.html" class="btn boxed-btn">See Case Study <i class="zmdi zmdi-arrow-right"></i></a>
-                        </div>
-                     </div>
-                     <h5>Mark Branding <span>Branding Design</span></h5>
-                  </div>
-                  <div class="single-case-study-item">
-                     <div class="case-study-bg case-study-bg-3">
-                        <div class="case-study-inner">
-                           <a href="case_study_details.html" class="btn boxed-btn">See Case Study <i class="zmdi zmdi-arrow-right"></i></a>
-                        </div>
-                     </div>
-                     <h5>Mark Branding <span>Branding Design</span></h5>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Case Study Section -->
-    <!-- Start Pricing Area -->
-    <section class="pricing-area theme-2 text-center pt-100 pb-100">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-               <div class="pricing-section-title mb-70">
-                  <h3>Check Our Awesome Pricing</h3>
-                  <p>Whiteboard ubiquitous niche markets and accurate collaboration. Holisticly supply client-focused models B2B processes.</p>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="col-lg-4">
-               <div class="single-pricing-box">
-                  <div class="pricing-box-heading">
-                     <h5>Basic</h5>
-                     <h1>$29.99</h1>
-                     <p>per month</p>
-                  </div>
-                  <div class="pricing-box-content">
-                     <p>Limited marketing & growth hacks</p>
-                     <p>5 Analytics Campaigns</p>
-                     <p>300 Keywords</p>
-                     <p>250,000 Crawled Pages</p>
-                     <p>Unlimited Updates</p>
-                  </div>
-               </div>
-               <a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
-            </div>
-            <div class="col-lg-4">
-               <div class="single-pricing-box">
-                  <div class="pricing-box-heading">
-                     <h5>Pro</h5>
-                     <h1>$69.99</h1>
-                     <p>per month</p>
-                  </div>
-                  <div class="pricing-box-content">
-                     <p>Limited marketing & growth hacks</p>
-                     <p>15 Analytics Campaigns</p>
-                     <p>800 Keywords</p>
-                     <p>550,000 Crawled Pages</p>
-                     <p>Unlimited Updates</p>
-                  </div>
-               </div>
-               <a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
-            </div>
-            <div class="col-lg-4">
-               <div class="single-pricing-box">
-                  <div class="pricing-box-heading">
-                     <h5>Advance</h5>
-                     <h1>$199.99</h1>
-                     <p>per month</p>
-                  </div>
-                  <div class="pricing-box-content">
-                     <p>Limited marketing & growth hacks</p>
-                     <p>55 Analytics Campaigns</p>
-                     <p>1500 Keywords</p>
-                     <p>950,000 Crawled Pages</p>
-                     <p>Unlimited Updates</p>
-                  </div>
-               </div>
-               <a href="pricing.html" class="btn boxed-btn">Purchase Plan</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Pricing Area -->
-   <!-- Start Blog Area -->
-   <section class="blog-area theme-2 pb-120">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-               <div class="blog-area-title mb-70 text-center">
-                  <h3>Check Our Awesome Blog</h3>
-                  <p>Whiteboard ubiquitous niche markets and accurate collaboration. <br> Holisticly supply client-focused models B2B processes. </p>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-lg-4">
-               <div class="single-blog-item">
-                  <h5>Credibly maintain client-centric <br>distributed partnerships.</h5>
-                  <p>Data before unique human capital. Energistically stand-alone quality vectors after open-source inter Energistically actualize global method..</p>
-                  <a href="single_blog.html" class="blog-readmore-btn">Read More <i class="zmdi zmdi-arrow-right"></i></a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="single-blog-item">
-                  <h5>Intrinsicly enhance team driven total linkage premier.</h5>
-                  <p>Energistically architect interactive value whereas functional niches. Appropriately productize premier materials for visionary data..</p>
-                  <a href="single_blog.html" class="blog-readmore-btn">Read More <i class="zmdi zmdi-arrow-right"></i></a>
-               </div>
-            </div>
-            <div class="col-lg-4">
-               <div class="single-blog-item">
-                  <h5>Intrinsicly innovate pandemic mater <br>after error-free.</h5>
-                  <p>Monotonectally leverage other's plug-and-play mar with multifunctional infrastructures. envisioneer who interactive potentialities through 24/7 paradigms. </p>
-                  <a href="single_blog.html" class="blog-readmore-btn">Read More <i class="zmdi zmdi-arrow-right"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- Start CTA Area -->
-   <section class="cta-section theme-2 pt-60 pb-60">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 text-center">
-               <h3>Ready to improve your digital marketing efforts?</h3>
-               <a href="contact_us_v1.html" class="btn boxed-btn">Contact Us</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End CTA Area -->
-   <!-- Start Footer Area -->
-   <section class="footer-section theme-2 pt-100 pb-70">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-4 col-md-12">
-               <div class="footer-widget">
-                  <div class="footer-logo">
-                     <a href="index.html"><img src="assets/img/Logo.png" alt=""></a>
-                  </div>
-                  <div class="footer-content">
-                     Traffic is a great marking template with so many great features. Traffic have 5 homepage and so many block with great UI.
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-8 col-md-12">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="footer-widget">
-                        <h5>Company</h5>
-                        <ul class="footer-widget-menu">
-                           <li><a href="">About Us</a></li>
-                           <li><a href="">Try Demo</a></li>
-                           <li><a href="">Terms of Service</a></li>
-                           <li><a href="">Page Builder</a></li>
-                           <li><a href="">Privacy Policy</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="footer-widget">
-                        <h5>Help Center</h5>
-                        <ul class="footer-widget-menu">
-                           <li><a href="">Help center</a></li>
-                           <li><a href="">Email Us</a></li>
-                           <li><a href="">Message Us</a></li>
-                           <li><a href="">Blog</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="footer-widget">
-                        <h5>Follow Us</h5>
-                        <div class="footer-social">
-                           <ul class="social-links">
-                              <li><a target="_blank" href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                              <li><a target="_blank" href=""><i class="fab fa-twitter"></i> Twitter</a></li>
-                              <li><a target="_blank" href=""><i class="fab fa-pinterest"></i> Pinterest</a></li>
-                              <li><a target="_blank" href=""><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
-                              <li><a target="_blank" href=""><i class="fab fa-instagram"></i> Instagram</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!--  -->
-   <!-- Start Copyright Area -->
-   <div class="copyright-section text-center">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <p>&copy; Traffic 2017. All rights reserved . Powered By <a target="_blank" href="www.itanvir.net">iTanvir</a>.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- End Copyright Area -->
-</div>
-<!-- JS -->
-   <!-- Jquery -->
-   <script src="assets/js/jquery-3.4.1.min.js"></script>
-   <script src="assets/js/popper.min.js"></script>
-   <script src="assets/js/bootstrap-4.3.1.min.js"></script>
-   <script src="assets/js/jquery.magnific-popup-1.1.0.min.js"></script>
-   <script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
-   <script src="assets/js/owl.carousel-2.3.4.min.js"></script>
-   <script src="assets/js/owl.carousel2.thumbs.min.js"></script>
-   <script src="assets/js/jquery.slicknav.min.js"></script>
-   <script src="assets/js/colornip.min.js"></script>
-
-   <!-- Main.js -->
-   <script src="assets/js/main.js"></script>
-</body>
+		<!-- Main.js -->
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
